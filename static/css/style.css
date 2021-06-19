@@ -3668,7 +3668,7 @@ footer .f-contact .dialog:before{
 	display: block;
 	padding: 4rem .75rem 0;
 	box-sizing: border-box;
-	cursor: url('../img/cursor.png'),pointer;
+	cursor: url('../images/cursor.png'),pointer;
 }
 .i-case-box .i-case .case-tab .img{
 	position: relative;
@@ -4136,7 +4136,7 @@ footer .f-contact .dialog:before{
 .i-news-box .list .con-box{
 	padding: .75rem .75rem 3.75rem;
 	display: block;
-	cursor: url('../img/cursor.png'),pointer;
+	cursor: url('../images/cursor.png'),pointer;
 }
 .i-news-box .list .swiper-slide img{
 	width: 100%;
