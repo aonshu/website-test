@@ -216,6 +216,49 @@ header .icon-box .item .dialog-box {
 	transform: translate(-50%, 1rem);
 }
 
+header .tel-btn{
+	display: block;
+	float: right;
+	font-size: 0;
+}
+
+header .tel-btn .tel-box{
+	width: auto;
+}
+
+header .tel-btn .tel-box .tel-icon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1rem;
+}
+
+header .tel-btn .tel-box .tel-icon img{
+	width: 100%;
+}
+
+header .tel-btn .tel-box .tel{
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 1rem);
+	padding-left: 0.2rem;
+	line-height: 1;
+}
+
+header .tel-btn .tel-box .tel .text {
+	font-size: 0.3rem;
+	color: #fff;
+}
+
+header .tel-btn .tel-box .tel .hotline{
+
+    display: block;
+    margin-top: 0.125rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+
 .dialog-box {
 	position: absolute;
 	transform: translateX(-50%);
@@ -3605,12 +3648,12 @@ footer .f-contact .dialog:before {
 }
 
 .banner .circle2 .list .item .point {
-    width: 1rem;
-    height: 1rem;
-    position: relative;
-    position: absolute;
-    top: -1.1rem;
-    left: calc(50% - .5rem);
+	width: 1rem;
+	height: 1rem;
+	position: relative;
+	position: absolute;
+	top: -1.1rem;
+	left: calc(50% - .5rem);
 }
 
 .banner .circle2 .list .item .point:before {
@@ -3648,13 +3691,13 @@ footer .f-contact .dialog:before {
 }
 
 .banner .circle2 .list .item:nth-child(1) {
-    top: 7.76%;
-    right: 14%;
+	top: 7.76%;
+	right: 14%;
 }
 
 .banner .circle2 .list .item:nth-child(2) {
-    left: -0.38%;
-    top: 20.76%;
+	left: -0.38%;
+	top: 20.76%;
 }
 
 .banner .circle2 .list .item:nth-child(3) {
@@ -3668,8 +3711,8 @@ footer .f-contact .dialog:before {
 }
 
 .banner .circle2 .list .item:nth-child(5) {
-    left: 3%;
-    bottom: 11.76%;
+	left: 3%;
+	bottom: 11.76%;
 }
 
 .banner .circle2 .list .item:nth-child(6) {
@@ -3689,7 +3732,7 @@ footer .f-contact .dialog:before {
 	/* padding: 0 .25rem .25rem .6rem; */
 }
 
-.banner .circle2 .list .item .txt p{
+.banner .circle2 .list .item .txt p {
 	line-height: 1.7;
 }
 
@@ -3716,10 +3759,10 @@ footer .f-contact .dialog:before {
 }
 
 .banner .circle2 .list .item .txt .line1 {
-    height: 80px;
-    width: 1px;
-    top: -0.3rem;
-    left: calc(50% - 0.5px);
+	height: 80px;
+	width: 1px;
+	top: -0.3rem;
+	left: calc(50% - 0.5px);
 }
 
 .banner .circle2 .list .item .txt .line1:before {
@@ -3778,9 +3821,10 @@ footer .f-contact .dialog:before {
 	margin: 0 auto;
 }
 
-.banner .ban-logo h1{
+.banner .ban-logo h1 {
 	font-size: 0.75rem;
 	color: #fff;
+	line-height: 1;
 }
 
 .banner .ban-logo img {
@@ -3796,12 +3840,12 @@ footer .f-contact .dialog:before {
 	position: relative;
 }
 
-.banner .ban-txt h1{
+.banner .ban-txt h1 {
 	font-size: 1rem;
 	color: #fff;
 }
 
-.banner .ban-txt h2{
+.banner .ban-txt h2 {
 	margin-bottom: 0.7rem;
 	font-size: 0.75rem;
 	color: #fff;
@@ -5486,4 +5530,87 @@ footer .f-contact .dialog:before {
 		font-size: .5rem;
 		line-height: .6rem;
 	}
+}
+
+.index-tit {
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.index-tit span {
+	display: block;
+	text-transform: uppercase;
+	font-weight: 100;
+	opacity: 0.3;
+	font-size: 1.125rem;
+}
+
+.i-product {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 12.5%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.i-product .product-list {
+	width: 100%;
+	margin-top: 1rem;
+	font-size: 0;
+}
+
+.i-product .product-list .product {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc((100% - 2.25rem) / 4);
+	margin-right: 0.75rem;
+}
+
+.i-product .product-list .product:last-child {
+	margin-right: 0rem;
+}
+
+.i-product .product-list .product .product-img {
+	overflow: hidden;
+}
+
+.i-product .product-list .product .product-img img {
+	width: 100%;
+}
+
+.i-product .product-list .product .content-box {
+	padding: 0.5rem .75rem;
+	background-color: rgb(255, 255, 255, 10%);
+	overflow: hidden;
+}
+
+.i-product .product-list .product .content-box .title-box{
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 2rem);
+}
+
+.i-product .product-list .product .content-box .title-box h3 {
+	font-size: 0.4rem;
+	color: #fff;
+}
+
+.i-product .product-list .product .content-box .btn-box{
+	display: inline-block;
+	vertical-align: middle;
+	width: 2rem;
+}
+
+.i-product .product-list .product .content-box .btn-box a {
+	font-size: 0.35rem;
+	color: #fff;
+}
+
+.i-product .index-button {
+	margin: 1.5rem auto 0 auto;
 }
