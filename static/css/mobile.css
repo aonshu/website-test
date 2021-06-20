@@ -355,10 +355,30 @@
 		padding: .4rem 0;
 	}
 	.header-view{
-		padding: 0 .5rem;
+		padding: 0 0.5rem;
 	}
 	header .logo{
-		width: 1.82rem;
+		width: 1.82rem !important;
+		left: 15%;
+	}
+	.about-circle-p{
+		font-size: 0.25rem;
+    line-height: .5rem;
+	}
+	.index-page header .logo .logo2 {
+		padding: 0;
+	}
+	header .tel-btn .tel-box .tel {
+		width: 100%;
+	}
+	header .tel-btn .tel-box .tel-icon {
+		display: none;
+	}
+	header .tel-btn .tel-box .tel .text {
+		font-size: 0.25rem;
+	}
+	header .tel-btn .tel-box .tel .hotline {
+		font-size: 0.3rem;
 	}
 	header .nav-btn{
 		font-size: .2rem;
@@ -400,6 +420,12 @@
 	}
 	.nav-box .nav li:last-child{
 		margin-bottom: 0;
+	}
+	.index-tit {
+		font-size: 0.5rem !important;
+	}
+	.index-tit span {
+		font-size: 0.6rem !important;
 	}
 	.nav-box .nav li span{
 		font-size: .2rem;
@@ -1325,14 +1351,14 @@
 		width: 5.4rem;
 	}
 	.i-about-box .text-box{
-		width: 6rem;
+		width: 5rem;
 		left: 50%;
 		transform: translate(-50%,-50%);
 	}
 	.i-about-box .con{
 		font-size: .24rem;
 		margin: .3rem auto 0;
-		width: 5rem;
+		width: 4rem;
 		line-height: .3rem;
 	}
 	.i-about-box .about-circle2{
@@ -1352,7 +1378,7 @@
 	.i-about-box .num-box .item{
 		/* padding-right: .7rem;
 		margin-right: .7rem; */
-		padding-right: 4%;
+		padding-right: 0;
 		margin-right: 4%;
 	}
 	.i-about-box .num-box .item .txt{
@@ -1451,6 +1477,9 @@
 		padding: 1.35rem 0 1.4rem;
 		background-image: url('../images/m-i-case-bg.jpg');
 	}
+	.i-case-box .i-case .tit-box {
+		font-size: 0.5rem;
+	}
 	.i-case-box .i-case .tit-box .en{
 		font-size: .7rem;
 		line-height: .8rem;
@@ -1510,6 +1539,10 @@
 		font-size: 0;
 		text-align: center;
 	}
+	.i-case-box .i-case .tit-box span{
+		font-size: 0.6rem !important;
+		line-height: 1;
+	}
 	.i-case-box .i-case .case-tab .num-box>div{
 		display: inline-block;
 		*display: inline;
@@ -1539,7 +1572,17 @@
 		padding: 0 .5rem;
 	}
 	.i-service .list .icon{
-		width: .84rem;
+		width: auto;
+    height: 1.1rem;
+    text-align: center;
+    max-width: 1.5rem;
+    margin: 0 auto;
+	}
+	.i-service .list .icon img {
+		width: auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
 	}
 	.i-service .list .icon .line:nth-child(1),
 	.i-service .list .icon .line:nth-child(3){
@@ -1555,13 +1598,14 @@
 		margin-top: .2rem;
 	}
 	.i-service .list .en{
-		font-size: .36rem;
-		line-height: .46rem;
+		font-size: .3rem;
+		line-height: .6rem;
 	}
 	.i-service .list .cn{
-		font-size: .24rem;
-		line-height: .34rem;
-		margin-top: .1rem;
+		font-size: .35rem;
+    line-height: .5rem;
+    font-weight: bold;
+    margin-top: .1rem;
 	}
 	.i-service .list .divide{
 		width: .18rem;
