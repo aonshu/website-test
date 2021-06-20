@@ -1575,21 +1575,6 @@
 		line-height: .3rem;
 		margin-bottom: .2rem;
 	}
-	.i-service .list .swiper-slide:nth-child(4) .sub{
-		text-align: left;
-		padding: 0 .2rem;
-	}
-	.i-service .list .swiper-slide:nth-child(4) .sub .item:nth-child(3n+1),
-	.i-service .list .swiper-slide:nth-child(4) .sub .item:nth-child(3n+2),
-	.i-service .list .swiper-slide:nth-child(4) .sub .item:nth-child(3n){
-		width: 50%;
-	}
-	.i-service .list .swiper-slide:nth-child(4) .sub .row{
-		margin: 0 -.25rem;
-	}
-	.i-service .list .swiper-slide:nth-child(4) .sub .item{
-		padding: 0 .25rem;
-	}
 	.i-service .list .swiper-slide:before{
 		height: 1.75rem;
 		top: .6rem;
