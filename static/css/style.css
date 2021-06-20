@@ -3174,12 +3174,24 @@ footer .f-contact .dialog:before{
 	right: 22%;
 }
 .banner .circle2 .list .item:nth-child(2){
-	left:-2.38%;
-	top: 54.76%;
+    left: -10.38%;
+    top: 29.76%;
 }
 .banner .circle2 .list .item:nth-child(3){
-	bottom:8.33%;
-	right: 16.67%;
+    bottom: 44.33%;
+    right: -17.67%;
+}
+.banner .circle2 .list .item:nth-child(4){
+    left: -13.38%;
+    top: 54.76%;
+}
+.banner .circle2 .list .item:nth-child(5){
+    left: 0%;
+    bottom: 14.76%;
+}
+.banner .circle2 .list .item:nth-child(6){
+    bottom: 5.33%;
+    right: 8%;
 }
 .banner .circle2 .list .item .txt{
 	/* position: absolute; */
@@ -3197,10 +3209,10 @@ footer .f-contact .dialog:before{
 	left: auto;
 	padding: 0 .6rem .25rem .25rem;
 }
-.banner .circle2 .list .item:nth-child(2n) .txt .line1{
+/* .banner .circle2 .list .item:nth-child(2n) .txt .line1{
 	right: 0;
 	left: auto;
-}
+} */
 .banner .circle2 .list .item span{
 	color: #29e6c5;
 }
