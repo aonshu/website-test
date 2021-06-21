@@ -355,7 +355,6 @@ header.white .icon-box .item:nth-child(2) a {
 	color: #fff;
 	background-image: url('../images/nav-btn2.png');
 	transition: all .2s;
-	display: none;
 }
 
 .index-page header .logo .logo1 {

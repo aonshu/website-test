@@ -358,8 +358,8 @@
 		padding: 0 0.5rem;
 	}
 	header .logo{
-		width: 1.82rem !important;
-		left: 15%;
+		width: 1rem !important;
+		left: 50%;
 	}
 	.about-circle-p{
 		font-size: 0.25rem;
@@ -396,6 +396,9 @@
 	}
 	header .icon-box .item .dialog-box{
 		transform: translate(-50%,.4rem);
+	}
+	header .tel-btn{
+		display: none;
 	}
 	footer .f-contact .dialog-box{
 		transform: translateY(-.4rem);	
@@ -1296,6 +1299,7 @@
 		width: 6.86rem;
 	}
 	.banner .circle2{
+		display: none;
 		width: 7.5rem;
 	}
 	.banner .circle2 .list .item{
