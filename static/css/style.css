@@ -5562,6 +5562,7 @@ footer .f-contact .dialog:before {
 	width: 100%;
 	margin-top: 1rem;
 	font-size: 0;
+	overflow: hidden;
 }
 
 .i-product .product-list .product {
@@ -5569,6 +5570,14 @@ footer .f-contact .dialog:before {
 	vertical-align: middle;
 	width: calc((100% - 2.25rem) / 4);
 	margin-right: 0.75rem;
+}
+
+.i-product .product-list .product:hover .product-img img{
+	transform: scale(1.1);
+}
+
+.i-product .product-list .product:hover .content-box{
+	background-color: rgb(40, 230, 198, 60%);
 }
 
 .i-product .product-list .product:last-child {
@@ -5581,11 +5590,13 @@ footer .f-contact .dialog:before {
 
 .i-product .product-list .product .product-img img {
 	width: 100%;
+	transition: all .4s ease;
 }
 
 .i-product .product-list .product .content-box {
 	padding: 0.5rem .75rem;
 	background-color: rgb(255, 255, 255, 10%);
+	transition: all .4s ease;
 	overflow: hidden;
 }
 
@@ -5593,6 +5604,7 @@ footer .f-contact .dialog:before {
 	display: inline-block;
 	vertical-align: middle;
 	width: calc(100% - 2rem);
+	text-align: left;
 }
 
 .i-product .product-list .product .content-box .title-box h3 {
@@ -5604,11 +5616,17 @@ footer .f-contact .dialog:before {
 	display: inline-block;
 	vertical-align: middle;
 	width: 2rem;
+	text-align: right;
+	white-space: nowrap;
 }
 
 .i-product .product-list .product .content-box .btn-box a {
 	font-size: 0.35rem;
 	color: #fff;
+}
+
+.i-product .product-list .product .content-box .btn-box a:hover {
+	color: #29e6c5;
 }
 
 .i-product .index-button {

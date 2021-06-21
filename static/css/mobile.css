@@ -230,6 +230,18 @@
 		filter: grayscale(0);
 	    -webkit-filter: grayscale(0%);
 	}
+	.i-product {
+		position: static;
+		padding: 2rem 1.25rem;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url(..//picture/product/product-bg.jpg);
+		background-size: cover;
+		transform: translate(0,0);
+	}
+	.i-product .product-list .product .content-box{
+		padding: 0.4rem .6rem;
+	}
 }
 @media (max-width: 992px){
 	.nav-box .nav li{
@@ -1838,5 +1850,56 @@
 	}
 	.team-box .name-box .con{
 		display: block;
+	}
+
+	.banner .ban-logo h1{
+		font-size: 0.5rem;
+		line-height: 1.5;
+	}
+	.banner .ban-txt h1 {
+		font-size: 0.7rem;
+		line-height: 1.5;
+	}
+	.banner .ban-txt h2 {
+		font-size: 0.5rem;
+		line-height: 1.5;
+	}
+	.i-product{
+		padding: 2rem .5rem;
+	}
+	.i-product .product-list .product {
+		display: inline-block;
+		vertical-align: middle;
+		width: calc((100% - 0.4rem) / 2);
+		margin-bottom: 0.4rem;
+		margin-right: 0.4rem;
+	}
+	.i-product .product-list .product:nth-child(2n+0) {
+		margin-right: 0rem;
+	}
+	.i-product .product-list .product .content-box{
+		padding: 0.2rem;
+	}
+	.i-product .product-list .product .content-box .title-box{
+		width: 100%;
+		text-align: center;
+	}
+	.i-product .product-list .product .content-box .title-box h3 {
+		font-size: 0.2rem;
+	}
+	.i-product .product-list .product .content-box .btn-box{
+		display: none;
+	}
+	.i-product .index-button {
+		margin: 0.4rem auto 0 auto;
+	}
+	.i-footer-box{
+		text-align: center;
+	}
+	.i-footer-box .copy{
+		display: none;
+	}
+	.i-footer-box .right{
+		float: none;
 	}
 }
